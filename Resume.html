@@ -18,15 +18,16 @@ overflow: auto;
         }
 
         .parent {
+            width: 100%;
             opacity: 100%;
-            background-image:url(Resumebg.jpeg);
-            background-repeat: no-repeat;
-            background-size: 89%;
-            background-color: rgb(231, 231, 231);;
-            margin: 10px;
-            padding: 10px;
+            /* background-image:url(Resumebg.jpeg); */
+            /* background-repeat: no-repeat; */
+            /* background-size: 89%; */
+            background-color: whitesmoke;
+            /* margin: 10px;
+            padding: 10px; */
             border: 2px solid black;
-            display: inline-block;
+            display:flex;
 
         }
 
@@ -35,12 +36,14 @@ overflow: auto;
             margin: 10px;
             padding: 10px;
             border: 2px solid gray;
+            background-color: bisque;
         }
 
         .education {
             margin: 10px;
             padding: 10px;
             border: 2px solid gray;
+            align-items: center;
 
         }
 
@@ -48,15 +51,20 @@ overflow: auto;
             margin: 10px;
             padding: 10px;
             border: 2px solid gray;
+            align-items: center;
+
         }
 
         .language {
             margin: 10px;
             padding: 10px;
             border: 2px solid gray;
+            align-items: center;
+
         }
         .qalification{
-            display: inline-block;
+            display: flex;
+            /* border: 1px solid gray; */
 
         }
         .main{
@@ -79,8 +87,8 @@ overflow: auto;
 
 <body>
     <div class="parent">
-        <h1 class="heading">Resume</h1>
-        <hr>
+        <!-- <h1 class="heading">Resume</h1> -->
+        <!-- <hr> -->
         <div class="personal">
             <img style="height: 100px;width: 100px;border-radius: 100px;margin-left: 90px;" src="photo.jpeg" alt="ERROR">
 
@@ -138,8 +146,8 @@ overflow: auto;
 
 
         </div>
-        <div class="qalification">
-            <div class="main">
+         <div class="qalification">
+             <div class="main">
                 <H1>Rajveer Singh</H1>
                 <h3>Programmer</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam consequatur esse id suscipit natus
@@ -223,7 +231,7 @@ overflow: auto;
 
                 </div>
 
-            </div>
+             </div>
 
         </div>
     </div>
