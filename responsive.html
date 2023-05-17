@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsiveness</title>
+    <style>
+        .parent {
+            border: 2px solid black;
+            width: 100%;
+            height: 50vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: antiquewhite;
+
+
+        }
+
+        .parent div {
+            border: 2px solid red;
+            width: 31%;
+            height: 90%;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            background-color: beige;
+        }
+
+        .parent div div{
+            border: 2px solid green;
+            width: 90%;
+            height: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: burlywood;
+        }
+
+        @media screen and (max-width:900px){
+
+ /* .parent{
+
+} */
+
+.parent div{
+    flex-direction: row;
+} 
+
+.parent div div {
+    height: 90%;
+    width: 30%;
+    background-color: cadetblue;
+
+}
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="parent">
+        <div id="child1">
+            <div>
+                A
+            </div>
+            <div>
+                B
+            </div>
+            <div>
+                C
+            </div>
+        </div>
+
+
+        <div id="child2">
+            <div>
+                D
+            </div>
+            <div>
+                E
+            </div>
+            <div>
+                F
+            </div>
+        </div>
+
+
+        <div id="child3">
+            <div>
+                G
+            </div>
+            <div>
+                H
+            </div>
+            <div>
+                I
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

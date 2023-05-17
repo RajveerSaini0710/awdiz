@@ -1,0 +1,78 @@
+/* Styles for all screen sizes */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+#mainlogo img {
+    height: 50px;
+}
+
+#address {
+    display: none;
+}
+
+#search {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+#language select {
+    font-size: 0.8rem;
+}
+
+#signin,
+#orders {
+    display: none;
+}
+
+.cartlogo {
+    display: none;
+}
+
+#cart {
+    font-size: 0.8rem;
+}
+
+/* Media query for screens up to 768px wide */
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    #mainlogo,
+    #search,
+    #language {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    #mainlogo img {
+        height: 40px;
+    }
+
+    #address {
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    #language select {
+        font-size: 1rem;
+    }
+
+    #signin,
+    #orders {
+        display: block;
+        font-size: 0.8rem;
+    }
+
+    .cartlogo {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 0.5rem;
+    }
+}
