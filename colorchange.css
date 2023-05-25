@@ -1,0 +1,40 @@
+
+
+body{
+	background-color: white;
+}
+
+#logo{
+font-size: 8rem;
+font-weight: bold;
+mix-blend-mode: difference;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+position: sticky;
+top: 0;
+}
+
+#para{
+font-size: 2rem;
+background-color: grey;
+color: white;
+width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#para2{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	background-color: yellow;
+
+	
+}
+
