@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/1d9ede0fff.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+    <style>
+        .navigation{
+            background-color: azure;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 50vh;
+            flex-direction: column;
+          font-size: 3rem;
+          visibility: hidden;
+         
+        }
+
+        input{
+            position: absolute;
+            opacity: 0;
+        }
+        
+        .navigation a{
+            text-decoration: none;
+            color: black;
+        }
+
+        input:checked ~ .navigation {
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+  
+       <input type="checkbox" name="nav" id="nav">
+       <label for="nav"><i class="fa-solid fa-bars"></i></label>
+
+
+
+    
+    <div class="navigation">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Service</a>
+        <a href="#">Work</a>
+        <a href="#">contact us</a>
+    </div>    
+    
+
+    
+
+
+
+</body>
+
+</html>
