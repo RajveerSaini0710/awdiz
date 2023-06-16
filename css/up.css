@@ -1,0 +1,76 @@
+/* Reset some default styles for consistent look across browsers */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Add styles for the header and navigation */
+  header {
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Style the hero section with a background image */
+  .hero {
+    background-image: url("hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px;
+    color: black;
+  }
+  
+  /* Add some styles to the features section */
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+  }
+  
+  .features .feature {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .features .feature h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the button */
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  /* Add some styles to the footer */
+  footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  
+  
